@@ -14,8 +14,13 @@ public class Calculator {
         return a - b;
     }
 
-    //This method multiply 2 int numbers.
+    //This method multiplies 2 int numbers.
     public int multiply(int a, int b){
+        return a * b;
+    }
+
+    //This method divides 2 int numbers.
+    public int divide(int a, int b){
         return a * b;
     }
 }
