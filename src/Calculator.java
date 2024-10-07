@@ -28,4 +28,11 @@ public class Calculator {
     public int modulo(int a, int b){
         return a % b;
     }
+
+    //Main method.
+    public static void main(String[] args){
+        //Create object.
+        Calculator myCalculator = new Calculator();
+        System.out.println(myCalculator.add(5,7));
+    }
 }
