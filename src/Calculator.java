@@ -21,6 +21,11 @@ public class Calculator {
 
     //This method divides 2 int numbers.
     public int divide(int a, int b){
-        return a * b;
+        return a / b;
+    }
+
+    //This method returns the remainder of the division between 2 int numbers.
+    public int modulo(int a, int b){
+        return a % b;
     }
 }
